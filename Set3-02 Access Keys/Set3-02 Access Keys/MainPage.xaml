@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Set3_02_Access_Keys.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Set3_02_Access_Keys"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.TopAppBar>
+        <CommandBar>
+            <AppBarButton Name="Bold" Icon="Bold" Label="Bold" AccessKey="B" Click="Bold_Click"/>
+            <AppBarButton Name="Italic" Icon="Italic" Label="Italic" AccessKey="I" Click="Italic_Click"/>
+            <AppBarButton Name="Underline" Icon="Underline" Label="Underline" AccessKey="U" Click="Underline_Click"/>
+        </CommandBar>
+    </Page.TopAppBar>
+    
+    <Grid>
+        
+    </Grid>
+</Page>
